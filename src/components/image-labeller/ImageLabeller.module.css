@@ -1,0 +1,10 @@
+.imageLabeller {
+  margin: var(--size-m);
+}
+
+.imageLabellerWindowExtension {
+  display: flex;
+  background-color: var(--colour-secondary);
+  padding: var(--size-s);
+  border: solid var(--colour-secondary-major);
+}

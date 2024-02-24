@@ -1,0 +1,39 @@
+﻿.dialog::backdrop {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.dialog {
+  border-radius: var(--size-s);
+  border: var(--size-xs) var(--colour-secondary-major) solid;
+  background-color: var(--colour-secondary);
+  color: var(--colour-primary);
+  max-width: var(--size-huge);
+}
+
+.body {
+  margin: var(--size-m);
+  line-height: 150%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: var(--size-m);
+  margin: var(--size-m);
+}
+
+.button {
+  background-color: var(--colour-primary-minor);
+  color: var(--colour-secondary);
+  border-radius: var(--size-s);
+  border-style: none;
+  cursor: pointer;
+  font-size: var(--size-m);
+  padding: var(--size-s) var(--size-m);
+  text-align: center;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--colour-primary-major);
+}

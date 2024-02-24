@@ -1,0 +1,6 @@
+﻿.imageLabellerWindow {
+  border: solid var(--colour-secondary-major);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
